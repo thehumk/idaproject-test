@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Idaproject test</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preload" href="fonts/sourcesanspro.woff2" , as="font" , crossorigin="anonymous">
+  <link rel="preload" href="fonts/sourcesansprosemibold.woff2" , as="font" , crossorigin="anonymous">
+  <link rel="preload" href="fonts/inter-semi-bold.woff2" , as="font" , crossorigin="anonymous">
+</head>
+
+<body>
+  <main class="">
+    <section class="products container">
+      <div class="product-add-form">
+        <h2 class="product-add-form__title">Добавление товара</h2>
+        <form action="#" method="post" class="product-add-form__form">
+          <label class="product-add-form__label">
+            <span class="product-add-form__name product-add-form__name--required">Наименование товара</span>
+            <input type="text" name="name" class="product-add-form__input" placeholder="Введите наименование товара" required>
+          </label>
+          <label class="product-add-form__label">
+            <span class="product-add-form__name">Описание товара</span>
+            <textarea class="product-add-form__textarea" name="description" placeholder="Введите описание товара"></textarea>
+          </label>
+          <label class="product-add-form__label">
+            <span class="product-add-form__name product-add-form__name--required">Ссылка на изображение товара</span>
+            <input type="text" name="image" class="product-add-form__input" placeholder="Введите ссылку" required>
+          </label>
+          <label class="product-add-form__label">
+            <span class="product-add-form__name product-add-form__name--required">Цена товара</span>
+            <input type="number" name="price" class="product-add-form__input" placeholder="Введите цену" required>
+          </label>
+          <button type="submit" class="product-add-form__submit-btn">Добавить товар</button>
+        </form>
+      </div>
+      <section class="products-list">
+        <div class="products-list__sort">
+          <span class="products-list__sort-content">По умолчанию</span>
+          <span class="products-list__sort-icon"></span>
+          <ul class="products-list__sort-list">
+            <li class="products-list__sort-option">По умолчанию</li>
+            <li class="products-list__sort-option">По возрастанию цены</li>
+            <li class="products-list__sort-option">По убыванию цены</li>
+          </ul>
+        </div>
+        <ul class="products-list__list">
+          <li class="product-card  products-list__item ">
+            <a href="#" class="product-card__img">
+              <img src="./img/product.jpg" width="332" height="200" alt="Фото товара">
+            </a>
+            <div class="product-card__container">
+              <h3 class="product-card__title">Наименование товара</h3>
+              <p class="product-card__description">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+              <p class="product-card__price">10 000 руб.</p>
+            </div>
+          </li>
+          <li class="product-card  products-list__item ">
+            <button type="button" class="product-card__delete-btn" aria-label="Удалить товар"></button>
+            <a href="#" class="product-card__img">
+              <img src="./img/product.jpg" width="332" height="200" alt="Фото товара">
+            </a>
+            <div class="product-card__container">
+              <h3 class="product-card__title">Наименование товара</h3>
+              <p class="product-card__description">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+              <p class="product-card__price">10 000 руб.</p>
+            </div>
+          </li>
+          <li class="product-card  products-list__item ">
+            <a href="#" class="product-card__img">
+              <img src="./img/product.jpg" width="332" height="200" alt="Фото товара">
+            </a>
+            <div class="product-card__container">
+              <h3 class="product-card__title">Наименование товара</h3>
+              <p class="product-card__description">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+              <p class="product-card__price">10 000 руб.</p>
+            </div>
+          </li>
+          <li class="product-card  products-list__item ">
+            <a href="#" class="product-card__img">
+              <img src="./img/product.jpg" width="332" height="200" alt="Фото товара">
+            </a>
+            <div class="product-card__container">
+              <h3 class="product-card__title">Наименование товара</h3>
+              <p class="product-card__description">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+              <p class="product-card__price">10 000 руб.</p>
+            </div>
+          </li>
+          <li class="product-card  products-list__item ">
+            <a href="#" class="product-card__img">
+              <img src="./img/product.jpg" width="332" height="200" alt="Фото товара">
+            </a>
+            <div class="product-card__container">
+              <h3 class="product-card__title">Наименование товара</h3>
+              <p class="product-card__description">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+              <p class="product-card__price">10 000 руб.</p>
+            </div>
+          </li>
+          <li class="product-card  products-list__item ">
+            <a href="#" class="product-card__img">
+              <img src="./img/product.jpg" width="332" height="200" alt="Фото товара">
+            </a>
+            <div class="product-card__container">
+              <h3 class="product-card__title">Наименование товара</h3>
+              <p class="product-card__description">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+              <p class="product-card__price">10 000 руб.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+<li class="product-card @@if (context.class) { @@class }">
+  @@if (context.delete) {
+    <button type="button" class="product-card__delete-btn" aria-label="Удалить товар"></button>
+  }
+  <a href="#" class="product-card__img">
+    <img src="./img/product.jpg" width="332" height="200" alt="Фото товара">
+  </a>
+  <div class="product-card__container">
+    <h3 class="product-card__title">Наименование товара</h3>
+    <p class="product-card__description">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+    <p class="product-card__price">10 000 руб.</p>
+  </div>
+</li>

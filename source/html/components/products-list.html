@@ -1,0 +1,34 @@
+<section class="products-list">
+  <div class="products-list__sort">
+    <span class="products-list__sort-content">По умолчанию</span>
+    <span class="products-list__sort-icon"></span>
+    <ul class="products-list__sort-list">
+      <li class="products-list__sort-option">По умолчанию</li>
+      <li class="products-list__sort-option">По возрастанию цены</li>
+      <li class="products-list__sort-option">По убыванию цены</li>
+    </ul>
+  </div>
+  <ul class="products-list__list">
+
+
+    @@include("source/html/components/product-card.html", {
+      "class": "products-list__item"
+    })
+    @@include("source/html/components/product-card.html", {
+      "class": "products-list__item",
+      "delete": true,
+    })
+    @@include("source/html/components/product-card.html", {
+      "class": "products-list__item"
+    })
+    @@include("source/html/components/product-card.html", {
+      "class": "products-list__item"
+    })
+    @@include("source/html/components/product-card.html", {
+      "class": "products-list__item"
+    })
+    @@include("source/html/components/product-card.html", {
+      "class": "products-list__item"
+    })
+  </ul>
+</section>
